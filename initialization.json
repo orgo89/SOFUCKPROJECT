@@ -1,0 +1,145 @@
+{
+    "company": {
+        "id": "SETUP",
+        "name": "SETUP",
+        "status": "ACTIVE",
+        "audit": {
+            "status": "ACTIVE"
+        },
+        "employee": {
+            "noemployee": "000001",
+            "name": "super",
+            "lastName1": "super",
+            "lastName2": "super",
+            "status": "ACTIVE",
+            "audit": {
+                "status": "ACTIVE"
+            },
+            "user": {
+                "name": "super",
+                "password": "super",
+                "audit": {
+                    "status": "ACTIVE"
+                },
+                "permissions": [
+                    {
+                        "permission": "COMPANIES",
+                        "see": true,
+                        "read": true,
+                        "create": true,
+                        "update": true,
+                        "erase": true,
+                        "delete": true
+                    },
+                    {
+                        "permission": "EMPLOYEES",
+                        "see": true,
+                        "read": true,
+                        "create": true,
+                        "update": true,
+                        "erase": true,
+                        "delete": true
+                    },
+                    {
+                        "permission": "USERS",
+                        "see": true,
+                        "read": true,
+                        "create": true,
+                        "update": true,
+                        "erase": true,
+                        "delete": true
+                    },
+                    {
+                        "permission": "PERMISSIONS",
+                        "see": true,
+                        "read": true,
+                        "create": true,
+                        "update": true,
+                        "erase": true,
+                        "delete": true
+                    },
+                    {
+                        "permission": "USERSPERMISSIONS",
+                        "see": true,
+                        "read": true,
+                        "create": true,
+                        "update": true,
+                        "erase": true,
+                        "delete": true
+                    },
+                    {
+                        "permission": "WAREHOUSES",
+                        "see": true,
+                        "read": true,
+                        "create": true,
+                        "update": true,
+                        "erase": true,
+                        "delete": true
+                    }
+                ]
+            }
+        }
+    },
+    "permissions": [
+        {
+            "name": "COMPANIES",
+            "displayName": "Empresas",
+            "see": false,
+            "read": true,
+            "create": false,
+            "update": false,
+            "erase": false,
+            "delete": false
+        },
+        {
+            "name": "EMPLOYEES",
+            "displayName": "Empleados",
+            "see": false,
+            "read": true,
+            "create": false,
+            "update": false,
+            "erase": false,
+            "delete": false
+        },
+        {
+            "name": "USERS",
+            "displayName": "Usuarios",
+            "see": false,
+            "read": true,
+            "create": false,
+            "update": false,
+            "erase": false,
+            "delete": false
+        },
+        {
+            "name": "PERMISSIONS",
+            "displayName": "Permisos",
+            "see": false,
+            "read": true,
+            "create": false,
+            "update": false,
+            "erase": false,
+            "delete": false
+        },
+        {
+            "name": "USERSPERMISSIONS",
+            "displayName": "Permisos de Usuarios",
+            "see": false,
+            "read": true,
+            "create": false,
+            "update": false,
+            "erase": false,
+            "delete": false
+        },
+        {
+            "name": "WAREHOUSES",
+            "displayName": "Permisos de almacenes",
+            "see": false,
+            "read": true,
+            "create": false,
+            "update": false,
+            "erase": false,
+            "delete": false
+        }
+    ]
+}
